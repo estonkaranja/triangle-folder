@@ -1,0 +1,40 @@
+<DOCTYPE html>
+    <html>
+
+    <head>
+        <title>Triangle tracker</title>
+        <link rel="stylesheet" href="css/test.css" type="text/css">
+        <script src="js/scripts.js" type="text/javascripts"></script>
+    </head>
+
+    <body>
+
+        <h1>Triangle Tracker</h1>
+        <style>
+            .headcenter {
+                text-align: center;
+            }
+
+            body {
+                text-align: center;
+                color: green;
+            }
+        </style>
+        <div class="text-box">
+            <p>side a <input type="text" id="a"></p>
+            <p>side b<input type="text" id="b"></p>
+            <p>side c <input type="text" id="c"></p>
+        </div>
+        <input type="button" value="input" onclick="TriangleTracker()">
+        <style>
+            html {
+                background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSudWFMPfoEaJfuCIROjawDDtxAkpM8_LymoHpY_tRZg_6jCkjNPw)no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+            }
+        </style>
+        <p>To help learn more about the this move to tracker folder</p>
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALoAAAC6CAMAAAAu0KfDAAAAZlBMVEX///8AAADBwcHT09M7Ozv8/Pzw8PDZ2dmysrL4+Pjs7Ozz8/PPz8/o6OjJycm4uLhvb2+ioqKCgoJHR0ePj48ODg41NTVaWlplZWUXFxdBQUGXl5chISFgYGDg4OBVVVV3d3ctLS37zuq3AAAFFUlEQVR4nO2ca3eiPBSF3cpVbqJCBRHh///JifbtO61FJcnJhTV5voy11MnasHZOkn1crRwOh8PhcDgcDofD4XA4HA7Hv0Xfmx6BMJeL6RGIknZdanoMYvgDMPimRyFEPgJjbnoUIsR7dB32selxCJBXKApUC5Sdid7GcbtE2VMgWq0iYHkmc8JHtlplHziZHgkv4V30u+yh6bFwcsBpe/t3e8LB9Fj4yFFFn6+iCosyGf+Ca/L5MrnisqQptegQfb2O0BUmx8JHMqD++1ONITE3Fk7WDdbffkKzfn6tXQS7n65ywC4wNRZO1vhpKjmwENljNoP+UDlgM+syKhkm+oOlFEuRvf71aLOHv56+1i7WEz7OfH4BsvvMT3492DHzHPun1KiqJibPoqqi3+/aRXDBx9T7H7jY7u2sUNxMvb+B7bKz8ryd/k37XwFvLcXTRVH4y+3tIrhO2MsnzGSuNj/tr/ZdbvsyOsfCSY3909I82ds8pUZoXghbNLDXZDrsX/16j07XSHgp32zs5iNKXWPh42Yvr6+w1mTK6t1GV4jKStn7j+nq5TvsEhtPxiIge3dNDxtNpj9geH/VgIN9skeoZmzphpV9sif1rPOLmE2ptm2FMU+fdXyR2uftwHHW4tM/AqrHwscZ9cwzo7TGWe1Y+Mjq19XLd9jT/tZENXJEN/vEKOxwVDkWPuZ5+hdWeXsJcCyZt7DHZMIWA8/1A1pLDiT9EhXXPsW2QmnHNl424sw1Ev+M0Q6TYZ7Oef9DS7w9Bqfod9lhwzHHHh53+CL15k9h6ggqkRnmiMr8KpWJLjDB9BbIHnpi0/oRnmlvZzWs0J0PYLqS2bSiIziinTxD0IWEywl4KimsgBWupEqOQpketlprhWf0rJ25JlRCD4k6ilVtMFe3s0WDxD0PuRYotDCDk6qizoLGSsAJV6naNbuaym+mo2zpep6570SNP6CWvN9BbSabn9fyq+MStYH8ZsyqF2nFfFbJ6F9zpCRHiREa7U/7LVlPsNucGMjmb4iOViJMh1AU8pmsl0d/Nj8k23wrdWfzL0Si32XX2u6WE57dllqz+f7p/2S9PAmrZPRNqeuO8ggxQqctv5kMGCk/b9SXzc8b2ihUgUbT085Eb0kfTr/VJTt9kv4xq68K/zFZL88tm6/DZFIFWctCT5fhATvyhOt2p6Pdba0kVxxVGrL5ByVzn6+hyzAi9vQvmLcrzvgEytQ5kPvWA0WjyoHzl6FaeVQ6gQrn+sZa4Upyo7Tv6hZ9VVZsJEpjs2q/0UBpNt/DoNAFggGeqs8uFLcaF50y2b2nPSQ0xDtVspfK15BriQPBVwQaziBOakwmepuslydUUpZmF1zpP/WRKy700arnLWqUqGh3y1iJoWH56LMiiVr2ecl6eeiz+cmrFjXS/4g8m/+uW4oO8r4rfd+CFRO3u+kTnVr2gJWMdJ/2DlZA0k2pZzQaz3vChi4227/tC6SFLZeoMj7ljBY1SjKy48H+oFf0m+xELRG6RaeTPeu0pyfiIzoKtfiT9fLQZPPjuS1qlNza3eTv9FkgWS9P6snLvh3NBM33GGV3IFkNaiQC2nN09U0TtqbS/XvZvqszV4saJVvJ6Ko50WVl9/n6AmnZysS0V31jskexRCPuEEd4BnvlMsHmm/vfGm4Mlaj72LQQhRtjhJHwdMhEb2rPIHUjKvsACxiEhp6vLWBR3/HrcDgcDofD4XA4HA6Hw+FwUPEHh9A4kmktyZQAAAAASUVORK5CYII="alt="photo of a triangle">
+    </body>
