@@ -23,9 +23,9 @@ and whether they are of the same size or sides.
 - Technologies used
 - contact information
 - License and copyright information
-=====================================================
 
----
+=================================
+-----
 
 ## Project name
 
@@ -65,6 +65,7 @@ Behavior|Input|Output
 2sides are equal|5|5|0|Isosceles
 3sidesareequal|5|5|5|Equilateral
 3unequal sides|6|3|6|scalene 
+
 ============================
 
 ---
