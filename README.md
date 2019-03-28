@@ -20,13 +20,12 @@ And listed features too if would like to have some.
 
 ---
 
-#### Setup-Instructions
--HTML
--CSS
--SCRIPTS.JS
--BOOTSTRAP
--JAVASCRTIPS
- 
+## Setup-Instructions
+-**HTML**
+-**CSS**
+-**SCRIPTS.JS**
+-**BOOTSTRAP**
+-**JAVASCRTIPS**
 ---
 
 
