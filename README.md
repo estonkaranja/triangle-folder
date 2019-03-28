@@ -44,6 +44,7 @@ There are no scripts that needs to be run for now...
 
 ##BDD
 
+---
 Triangle|Side_a|Side_b|side_c 
 --------|--------|--------|------
 Isosceles|2|4|6 
