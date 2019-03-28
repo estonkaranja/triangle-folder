@@ -1,34 +1,8 @@
-## Project name
-
-triangle-folder
-=============
-
----
-
-## Project Description
-
-This project is made to determine whether all sides of triangular tracker are meet,that is
-and whether they are of the same size or sides.
-==================================================================
-
----
-
-## Features
-
--Project name
--Project Description
--Author's information
--Setup instructions -includes any scripts that need to be run if necessary
--BDD
--Technologies used
--contact information
--License and copyright information
----
 
 ## Project name
 
 Triangle-folder
-=================
+==============
 
 ---
 
@@ -58,14 +32,15 @@ There are no scripts that needs to be run for now.
 
 
 ## BDD
-
 Behavior|Input|Output 
+--------|-----|------
 2sidesareequal|5|5|0|Isosceles
 3sidesareequal|5|5|5|Equilateral
 3unequalsides|6|3|6|scalene
-==========================
+===========================
 
 ---
+
 
 ## Technologies Used
 
