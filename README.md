@@ -20,7 +20,7 @@ And listed features too if would like to have some.
 
 ---
 
-## Setup-Instructions
+## Setup-Instructions:
 -**HTML**
 -**CSS**
 -**SCRIPTS.JS**
@@ -34,9 +34,9 @@ And listed features too if would like to have some.
 
 Behavior|Input|Output 
 --------|-----|------
-2sidesareequal|5|5|0|Isosceles
-3sidesareequal|5|5|5|Equilateral
-3unequalsides|6|3|6|scalene
+2sidesareequal|5,5,0|Isosceles
+3sidesareequal|5,5,5|Equilateral
+3unequalsides|6,3,6|scalene
 
 ---
 
