@@ -15,15 +15,14 @@ and whether they are of the same size or sides.
 
 ## Features
 
-1.Project name
-2.Project Description
-3.Author's information
-4.Setup instructions -includes any scripts that need to be run if necessary
-5.BDD
-6.Technologies used
-7.contact information
-8.License and copyright information
-
+-Project name
+-Project Description
+-Author's information
+-Setup instructions -includes any scripts that need to be run if necessary
+-BDD
+-Technologies used
+-contact information
+-License and copyright information
 ---
 
 ## Project name
@@ -61,9 +60,12 @@ There are no scripts that needs to be run for now.
 ## BDD
 
 Behavior|Input|Output 
-2sides are equal|5|5|0|Isosceles
+2sidesareequal|5|5|0|Isosceles
 3sidesareequal|5|5|5|Equilateral
-3unequal sides|6|3|6|scalene
+3unequalsides|6|3|6|scalene
+==========================
+
+---
 
 ## Technologies Used
 
