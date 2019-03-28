@@ -1,17 +1,15 @@
 # triangle-folder
 ================
 ---
-This is my new README that i have never made again...Support me by helping me archieve most
-out of moringa school.
-<a href="https://moringa-school.com/estonkaranja" target="blank"> <img src="data:image/png;base64,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" alt="photo of moringa"
+This is my new README that i have never made again...Support me by 
 ---
-##Features
--Project name = Triangle folder
--project description
--Author's information
--setup instructions -includes any scripts that need to be run if necessary
--BDD
--Technologies used
--contact information
--License and copyright information
+## Features
+- Project name = Triangle folder
+- project description
+- Author's information
+- setup instructions -includes any scripts that need to be run if necessary
+- BDD
+- Technologies used
+- contact information
+- License and copyright information
   
