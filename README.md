@@ -21,7 +21,6 @@ And listed features too if would like to have some.
 ---
 
 #### Setup-Instructions
-
 -HTML
 -CSS
 -SCRIPTS.JS
@@ -53,7 +52,6 @@ Scripts.js is still used to make the sylesheet to connect.
 ---
 
 #### Contact information
----
 
 you can find my github repositories via https://estonkaranja.github.io/Triangle-folder.
 
@@ -61,7 +59,6 @@ you can find my github repositories via https://estonkaranja.github.io/Triangle-
 ---
 
 #### License and copyRight information.
----
 
 This repository is also Licensed under the terms of  **MIT** license.
 >You can also checkout the license here at "https://github.com/estonkaranja/master/Triangle-Tracker"
